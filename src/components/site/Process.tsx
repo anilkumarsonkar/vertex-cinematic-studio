@@ -66,12 +66,20 @@ function ProjectThumb({
   return (
     <div className="group relative overflow-hidden rounded-2xl glass">
       <div className="relative aspect-[4/3] w-full overflow-hidden">
-        <img
-          src={project.image}
-          alt={project.title}
-          loading="lazy"
-          className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-110"
-        />
+       <div className="relative h-full w-full overflow-hidden">
+  <img
+    src={project.image}
+    alt={project.title}
+    loading="lazy"
+    className="
+      w-full
+      transition-all
+      duration-[4000ms]
+      ease-linear
+      group-hover:-translate-y-[55%]
+    "
+  />
+</div>
         <div className="absolute inset-0 flex items-center justify-center gap-3 bg-black/70 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
           <button
             onClick={() => onZoom(project)}
