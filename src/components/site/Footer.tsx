@@ -109,7 +109,7 @@ export function Footer() {
               </button>
             </form>
             <div className="mt-6 text-xs text-muted-foreground">
-              hello@vertexproductions.studio
+              princecode911@gmail.com
             </div>
           </div>
         </div>

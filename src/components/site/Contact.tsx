@@ -38,15 +38,15 @@ export function Contact() {
             <div className="mt-10 space-y-5 text-sm">
               <div>
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">Email</div>
-                <div className="mt-1 font-medium">hello@vertexproductions.studio</div>
+                <div className="mt-1 font-medium">princecode911@gmail.com</div>
               </div>
               <div>
                 <div className="text-xs uppercase tracking-widest text-muted-foreground">Studio</div>
-                <div className="mt-1 font-medium">Mumbai · Dubai · Los Angeles</div>
+                <div className="mt-1 font-medium">Delhi  · Noida</div>
               </div>
               <div>
-                <div className="text-xs uppercase tracking-widest text-muted-foreground">Hours</div>
-                <div className="mt-1 font-medium">Mon — Sat · 10:00 — 19:00</div>
+                {/* <div className="text-xs uppercase tracking-widest text-muted-foreground">Hours</div>
+                <div className="mt-1 font-medium">Mon — Sat · 10:00 — 19:00</div> */}
               </div>
             </div>
           </motion.div>
@@ -62,7 +62,7 @@ export function Contact() {
             <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-neon/20 blur-3xl" />
             <div className="relative grid grid-cols-1 gap-4 sm:grid-cols-2">
               <Field label="Name" name="name" required />
-              <Field label="Company Name" name="company" />
+              {/* <Field label="Company Name" name="company" /> */}
               <Field label="Email" name="email" type="email" required />
               <Field label="Phone Number" name="phone" />
               <Select label="Service Required" name="service" options={[
@@ -73,13 +73,13 @@ export function Contact() {
                 "Website Development",
                 "3D & CGI",
               ]} />
-              <Select label="Budget Range" name="budget" options={[
+              {/* <Select label="Budget Range" name="budget" options={[
                 "Under $5,000",
                 "$5k – $15k",
                 "$15k – $50k",
                 "$50k+",
-              ]} />
-              <Field label="Preferred Shoot Date" name="date" type="date" className="sm:col-span-2" />
+              ]} /> */}
+              {/* <Field label="Preferred Shoot Date" name="date" type="date" className="sm:col-span-2" /> */}
               <div className="sm:col-span-2">
                 <label className="mb-1.5 block text-xs uppercase tracking-widest text-muted-foreground">
                   Project Details
