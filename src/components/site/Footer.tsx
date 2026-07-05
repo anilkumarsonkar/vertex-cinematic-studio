@@ -52,7 +52,7 @@ export function Footer() {
               Quick Links
             </div>
             <ul className="space-y-2.5 text-sm">
-              {["Home", "About", "Portfolio", "Process", "Testimonials", "Contact"].map((l) => (
+              {["Home", "About", "Portfolio", "", "Testimonials", "Contact"].map((l) => (
                 <li key={l}>
                   <a
                     href={l === "Home" ? "/" : `/#${l.toLowerCase()}`}

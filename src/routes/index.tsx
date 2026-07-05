@@ -4,7 +4,7 @@ import { Hero } from "@/components/site/Hero";
 import { Services } from "@/components/site/Services";
 import { Portfolio } from "@/components/site/Portfolio";
 import { About } from "@/components/site/About";
-import { Process } from "@/components/site/Process";
+import ProjectsSection from "@/components/site/Process";
 import { Testimonials } from "@/components/site/Testimonials";
 import { WhyUs } from "@/components/site/WhyUs";
 import { Contact } from "@/components/site/Contact";
@@ -41,7 +41,7 @@ function Home() {
       <Services />
       <Portfolio />
       <About />
-      <Process />
+      <ProjectsSection />
       <Testimonials />
       <WhyUs />
       <Contact />

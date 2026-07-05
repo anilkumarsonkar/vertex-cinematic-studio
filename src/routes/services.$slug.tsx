@@ -4,7 +4,7 @@ import { ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { Navbar } from "@/components/site/Navbar";
 import { Footer } from "@/components/site/Footer";
 import { Contact } from "@/components/site/Contact";
-import { Process } from "@/components/site/Process";
+import ProjectsSection from "@/components/site/Process";
 import { Testimonials } from "@/components/site/Testimonials";
 import { CursorGlow } from "@/components/site/CursorGlow";
 import { Toaster } from "@/components/ui/sonner";
@@ -145,7 +145,7 @@ function ServicePage() {
         </div>
       </section>
 
-      <Process />
+      <ProjectsSection />
       <Testimonials />
 
       {/* Next service */}
